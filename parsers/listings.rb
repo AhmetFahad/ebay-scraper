@@ -20,4 +20,13 @@ listings.each do |listing|
 
     # save the product to the job’s outputs
     outputs << product
+
+    pages << {
+        url: product['url'],
+        page_type: 'details',
+        vars: {
+            title: product['title'],
+            price: product['price']
+        }
+      }
 end
