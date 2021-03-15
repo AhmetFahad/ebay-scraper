@@ -1,0 +1,3 @@
+exporter_name: products_json.yaml
+exporter_type: json
+collection: products

@@ -11,4 +11,6 @@ parsers:
 
 exporters:
  - file: ./exporters/products_last10_json.yaml
-   disabled: false   
+   disabled: false  
+ - file: ,/exporters/products_json.yaml
+   disabled: false    
