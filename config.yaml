@@ -8,4 +8,7 @@ parsers:
  - page_type: details
    file: ./parsers/details.rb
    disabled: false   
-   
+
+exporters:
+ - file: ./exporters/products_last10_json.yaml
+   disabled: false   
